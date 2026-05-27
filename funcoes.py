@@ -31,7 +31,7 @@ def formatar_data(data_str):
         # Faz o parse da string original
         objeto_data = datetime.strptime(data_str.strip(), "%Y-%m-%d %H:%M:%S")
         # Retorna no formato brasileiro simplificado
-        return objeto_data.strftime("%d/%m/%m%Y") # Nota: %Y para ano com 4 dígitos
+        return objeto_data.strftime("%d/%m/%Y") # Nota: %Y para ano com 4 dígitos
     except ValueError:
         # Caso a string esteja fora do padrão esperado
         return data_str
