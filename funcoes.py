@@ -6,7 +6,7 @@ from datetime import datetime
 def limpar_categoria(nome_categoria):
     """
     Tarefa 2: Padroniza strings e aplica Regex para limpar caracteres especiais.
-    Garante letras minúsculas e remove espaços sobressalentes.
+    Garante letras minúsculas e remove espaços.
     """
     if not nome_categoria:
         return "sem categoria"

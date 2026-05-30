@@ -47,7 +47,7 @@ def main():
     else:
         diferenca = vazios_totais - vazios_por_cancelamento
         print(f" > Hipótese REJEITADA: Das {vazios_totais} entregas vazias, apenas {vazios_por_cancelamento} ")
-        print(f"   foram canceladas. Existem {diferenca} pedidos com outras justificativas (ex: em trânsito/indisponíveis).")
+        print(f"   foram canceladas. Existem {diferenca} pedidos com outras justificativas.")
     
     print("="*60)
     print("Pipeline concluído com sucesso! Arquivos sanitizados gerados.")
